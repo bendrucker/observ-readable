@@ -25,11 +25,13 @@
     "tape": "^4.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "struct.js"
   ],
   "dependencies": {
     "is-observ": "~1.0.0",
     "observ": "~0.2.0",
+    "observ-struct": "~6.0.0",
     "value-pipe": "~1.0.0"
   }
 }

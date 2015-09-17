@@ -14,6 +14,7 @@ $ npm install --save observ-readable
 
 ```js
 var Readable = require('observ-readable')
+var Struct = require('observ-readable/struct')
 var Observ = require('observ')
 var observable = Observ('foo')
 var readable = Readable(observable)
@@ -23,6 +24,18 @@ readable()
 
 readable.set('bar')
 //=> TypeError: readable.set is not a function
+
+var struct = Struct({
+  foo: Readable('bar')
+})
+struct.foo()
+//=> bar
+
+struct()
+//=> {foo: 'bar'}
+
+struct.set({foo: 'baz'})
+//=> TypeError...
 ```
 
 ## API
@@ -35,6 +48,15 @@ readable.set('bar')
 Type: `function` / `any`
 
 An observable to wrap. You can also pass in a normal value and a new observable will be created.
+
+#### `Struct(data)` -> `function`
+
+##### data
+
+*Required*  
+Type: `object`
+
+Data to pass to [observ-struct](https://github.com/raynos/observ-struct).
 
 
 ## License
