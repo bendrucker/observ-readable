@@ -32,9 +32,9 @@ readable.set('bar')
 ##### observable
 
 *Required*  
-Type: `function`
+Type: `function` / `any`
 
-An observable to wrap.
+An observable to wrap. You can also pass in a normal value and a new observable will be created.
 
 
 ## License

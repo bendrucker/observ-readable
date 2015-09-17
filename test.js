@@ -14,5 +14,8 @@ test(function (t) {
   observable.set('bar')
   t.equal(readable(), 'bar')
 
+  var constructed = Readable({foo: 'bar'})
+  t.equal(constructed().foo, 'bar')
+
   t.end()
 })

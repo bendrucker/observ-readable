@@ -26,5 +26,10 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "is-observ": "~1.0.0",
+    "observ": "~0.2.0",
+    "value-pipe": "~1.0.0"
+  }
 }
