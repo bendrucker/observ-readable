@@ -1,7 +1,7 @@
 {
   "name": "observ-readable",
   "main": "index.js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create a read-only observable interface",
   "license": "MIT",
   "repository": "bendrucker/observ-readable",
