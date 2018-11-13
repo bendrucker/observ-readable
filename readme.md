@@ -1,4 +1,4 @@
-# observ-readable [![Build Status](https://travis-ci.org/bendrucker/observ-readable.svg?branch=master)](https://travis-ci.org/bendrucker/observ-readable)
+# observ-readable [![Build Status](https://travis-ci.org/bendrucker/observ-readable.svg?branch=master)](https://travis-ci.org/bendrucker/observ-readable) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/observ-readable.svg)](https://greenkeeper.io/)
 
 > Create a read-only observable interface
 
